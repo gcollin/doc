@@ -2023,7 +2023,7 @@ Requires YunoHost version 2.7.2 or higher.
 - `-n`, `--service_name=`: Name of the service to start. Default : `$app`
 - `-a`, `--action=`: Action to perform with systemctl. Default: start
 - `-l`, `--line_match=`: Line to match - The line to find in the log to attest the service have finished to boot. If not defined it don't wait until the service is completely started.
-- `-p`, `--log_path=`: Log file - Path to the log file. Default : `/var/log/$app/$app.log`
+- `-p`, `--log_path=`: Log file - Path to the log file or "systemd" to get systemd logs. Default : `/var/log/$app/$app.log`
 - `-t`, `--timeout=`: Timeout - The maximum time to wait before ending the watching. Default : 300 seconds.
 - `-e`, `--length=`: Length of the error log : Default : 20
 
